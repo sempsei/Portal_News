@@ -1,7 +1,7 @@
 // Seção de política
 const politicaLista = document.getElementById("politica-lista");
 
-fetch("https://newsapi.org/v2/top-headlines?country=br&category=politics&apiKey=SUA_API_KEY")
+fetch("https://newsapi.org/v2/top-headlines?country=br&category=politics&apiKey=c4b913c495fe4138b231641539267631")
 	.then(response => response.json())
 	.then(data => {
 		data.articles.forEach(article => {
@@ -18,7 +18,7 @@ fetch("https://newsapi.org/v2/top-headlines?country=br&category=politics&apiKey=
 // Seção de esportes
 const esportesLista = document.getElementById("esportes-lista");
 
-fetch("https://newsapi.org/v2/top-headlines?country=br&category=sports&apiKey=SUA_API_KEY")
+fetch("https://newsapi.org/v2/top-headlines?country=br&category=sports&apiKey=c4b913c495fe4138b231641539267631")
 	.then(response => response.json())
 	.then(data => {
 		data.articles.forEach(article => {
@@ -35,7 +35,7 @@ fetch("https://newsapi.org/v2/top-headlines?country=br&category=sports&apiKey=SU
 // Seção de entretenimento
 const entretenimentoLista = document.getElementById("ciencia-lista");
 
-fetch("https://newsapi.org/v2/top-headlines?country=br&category=science&apiKey=SUA_API_KEY")
+fetch("https://newsapi.org/v2/top-headlines?country=br&category=science&apiKey=c4b913c495fe4138b231641539267631")
 	.then(response => response.json())
 	.then(data => {
 		data.articles.forEach(article => {
@@ -52,7 +52,7 @@ fetch("https://newsapi.org/v2/top-headlines?country=br&category=science&apiKey=S
 // Seção de negócios
 const negociosLista = document.getElementById("tecnologia-lista");
 
-fetch("https://newsapi.org/v2/top-headlines?country=br&category=technology&apiKey=SUA_API_KEY")
+fetch("https://newsapi.org/v2/top-headlines?country=br&category=technology&apiKey=c4b913c495fe4138b231641539267631")
 	.then(response => response.json())
 	.then(data => {
 		data.articles.forEach(article => {

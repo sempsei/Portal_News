@@ -1,9 +1,8 @@
-# News Portal
+# Portal de Notícias
 
-Get your API key here: https://newsapi.org/ and insert it in your JS code
+Pegue sua API KEY aqui: https://newsapi.org/ e insira no código JS
 
-PT-BR: 
-
-Pegue sua API aqui: https://newsapi.org/ e insira no código JS
+## Exemplo:
+![](exemplo.gif)
 
 
