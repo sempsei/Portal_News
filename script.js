@@ -34,7 +34,7 @@ fetch(
   })
   .catch((error) => console.log(error));
 
-// Seção de entretenimento
+// Seção de ciencia
 const entretenimentoLista = document.getElementById("ciencia-lista");
 
 fetch(
@@ -53,7 +53,7 @@ fetch(
   })
   .catch((error) => console.log(error));
 
-// Seção de negócios
+// Seção de tecnologia
 const negociosLista = document.getElementById("tecnologia-lista");
 
 fetch(
