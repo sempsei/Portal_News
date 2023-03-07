@@ -1,7 +1,7 @@
 const noticiasLista = document.getElementById("noticias-lista");
 
-fetch(
-  "https://newsapi.org/v2/top-headlines?country=br&category=sport&apiKey=SUA_API_AQUI"
+fetch(// SE PREFERIR PT-BR, MUDE NA URL "country=us" para "country=br"
+  "https://newsapi.org/v2/top-headlines?country=us&category=sport&apiKey=SUA_API_AQUI"
 )
   .then((response) => response.json())
   .then((data) => {

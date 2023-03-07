@@ -1,6 +1,9 @@
-# Portal de Noticias
+# News Portal
 
-Pegue sua chave da API aqui: https://newsapi.org/ e insira no código JS
+Get your API key here: https://newsapi.org/ and insert it in your JS code
 
+PT-BR: 
+
+Pegue sua API aqui: https://newsapi.org/ e insira no código JS
 
 
