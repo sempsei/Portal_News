@@ -1,32 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title>News</title>
+	<title>Portal de Notícias</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" type="image/x-icon" href="news.ico">
 </head>
 <body>
 	<nav>
 		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="tech.html">Tech</a></li>
-			<li><a href="science.html">Science</a></li>
-			<li><a href="sports.html">Sport</a></li>
+			<li><a href="#">Início</a></li>
+			<li><a href="#noticias-politica">Política</a></li>
+			<li><a href="#noticias-esportes">Esportes</a></li>
+			<li><a href="#noticias-ciencia">Ciência</a></li>
+			<li><a href="#noticias-tecnologia">Tecnologia</a></li>
 		</ul>
 	</nav>
 	<header>
-		<h1>News</h1>
+		<h1>Portal de Notícias</h1>
 	</header>
 	<main>
-		<section id="noticias">
-			<h2>Latest News</h2>
-			<ul id="noticias-lista">
+		<section id="noticias-politica">
+			<h2>Notícias de Política</h2>
+			<ul id="politica-lista">
+			</ul>
+		</section>
+		<section id="noticias-esportes">
+			<h2>Notícias de Esportes</h2>
+			<ul id="esportes-lista">
+			</ul>
+		</section>
+		<section id="noticias-ciencia">
+			<h2>Notícias de Ciência</h2>
+			<ul id="ciencia-lista">
+			</ul>
+		</section>
+		<section id="noticias-tecnologia">
+			<h2>Notícias de Tecnologia</h2>
+			<ul id="tecnologia-lista">
 			</ul>
 		</section>
 	</main>
+	<button id="btn-voltar-topo">Voltar ao topo</button>
 	<footer>
-		<p>News Portal by sempsei &copy; 2023</p>
+		<p>Portal de Notícias &copy; 2023</p>
 	</footer>
 	<script src="script.js"></script>
+	<script src="topo.js"></script>
+
 </body>
 </html>
