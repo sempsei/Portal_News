@@ -1,7 +1,7 @@
 // Seção de Gerais
 const politicaLista = document.getElementById("gerais-lista");
 
-fetch("https://newsapi.org/v2/top-headlines?country=br&apiKey=c4b913c495fe4138b231641539267631")
+fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey=c4b913c495fe4138b231641539267631")
 	.then(response => response.json())
 	.then(data => {
 		data.articles.forEach(article => {
@@ -18,7 +18,7 @@ fetch("https://newsapi.org/v2/top-headlines?country=br&apiKey=c4b913c495fe4138b2
 // Seção de esportes
 const esportesLista = document.getElementById("esportes-lista");
 
-fetch("https://newsapi.org/v2/top-headlines?country=br&category=sports&apiKey=c4b913c495fe4138b231641539267631")
+fetch("https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=c4b913c495fe4138b231641539267631")
 	.then(response => response.json())
 	.then(data => {
 		data.articles.forEach(article => {
@@ -35,7 +35,7 @@ fetch("https://newsapi.org/v2/top-headlines?country=br&category=sports&apiKey=c4
 // Seção de entretenimento
 const entretenimentoLista = document.getElementById("ciencia-lista");
 
-fetch("https://newsapi.org/v2/top-headlines?country=br&category=science&apiKey=c4b913c495fe4138b231641539267631")
+fetch("https://newsapi.org/v2/top-headlines?country=us&category=science&apiKey=c4b913c495fe4138b231641539267631")
 	.then(response => response.json())
 	.then(data => {
 		data.articles.forEach(article => {
@@ -52,7 +52,7 @@ fetch("https://newsapi.org/v2/top-headlines?country=br&category=science&apiKey=c
 // Seção de negócios
 const negociosLista = document.getElementById("tecnologia-lista");
 
-fetch("https://newsapi.org/v2/top-headlines?country=br&category=technology&apiKey=c4b913c495fe4138b231641539267631")
+fetch("https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=c4b913c495fe4138b231641539267631")
 	.then(response => response.json())
 	.then(data => {
 		data.articles.forEach(article => {
