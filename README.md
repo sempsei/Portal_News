@@ -4,6 +4,6 @@ Pegue sua API aqui: https://newsapi.org/ e insira no código JS
 
 ## Exemplo:
 
-![](example2.gif)
+![](example3.gif)
 
 
